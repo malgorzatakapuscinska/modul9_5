@@ -1,7 +1,7 @@
 function getButtonClass() { //
 	var navigation = document.getElementById('nav');
 	var elementsWithButtonClassinNav = navigation.getElementsByClassName('button');
-	return elementsWithButtonClassinNav = navigation.getElementsByClassName('button');
+	return elementsWithButtonClassinNav;
 }
 
 var x = getButtonClass(); //przechowuje tablicę zawierającą wszystkie buttony o klasie button
