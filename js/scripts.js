@@ -9,10 +9,10 @@ console.log(x);
 var y = x.length; //przechowuje długość tablicy
 console.log(y);
 
-function showElementsContent(x,y){
+function showElementsContent(a,b){
 	for(var i=0; i<y; i++){
 		alert(x[i].innerText);
 	}
 }
 
-var z = showElementsContent(x,y); 
+showElementsContent(x,y); 
